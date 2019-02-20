@@ -1,0 +1,747 @@
+make: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+make[1]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target gtest
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[  1%] Creating directories for 'gtest'
+[  1%] Performing download step (verify and extract) for 'gtest'
+-- verifying file...
+     file='/home/lukasz/Desktop/biodynamo/third_party/gtest-1.7.0.zip'
+-- verifying file... warning: did not verify file - no URL_HASH specified?
+-- extracting...
+     src='/home/lukasz/Desktop/biodynamo/third_party/gtest-1.7.0.zip'
+     dst='/home/lukasz/Desktop/biodynamo/build/gtest/src/gtest'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[  1%] No patch step for 'gtest'
+[  2%] No update step for 'gtest'
+[  3%] Performing configure step for 'gtest'
+loading initial cache file /home/lukasz/Desktop/biodynamo/build/gtest/tmp/gtest-cache-RelWithDebInfo.cmake
+-- The CXX compiler identification is GNU 5.4.0
+-- The C compiler identification is GNU 5.4.0
+-- Check for working CXX compiler: /usr/bin/g++-5
+-- Check for working CXX compiler: /usr/bin/g++-5 -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Check for working C compiler: /usr/bin/gcc-5
+-- Check for working C compiler: /usr/bin/gcc-5 -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found PythonInterp: /usr/bin/python (found version "2.7.12") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lukasz/Desktop/biodynamo/build/gtest/src/gtest-build
+[  3%] Performing build step for 'gtest'
+make[3]: Entering directory '/home/lukasz/Desktop/biodynamo/build/gtest/src/gtest-build'
+make[4]: Entering directory '/home/lukasz/Desktop/biodynamo/build/gtest/src/gtest-build'
+make[5]: Entering directory '/home/lukasz/Desktop/biodynamo/build/gtest/src/gtest-build'
+Scanning dependencies of target gtest
+make[5]: Leaving directory '/home/lukasz/Desktop/biodynamo/build/gtest/src/gtest-build'
+make[5]: Entering directory '/home/lukasz/Desktop/biodynamo/build/gtest/src/gtest-build'
+[ 25%] Building CXX object CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[ 50%] Linking CXX static library libgtest.a
+make[5]: Leaving directory '/home/lukasz/Desktop/biodynamo/build/gtest/src/gtest-build'
+[ 50%] Built target gtest
+make[5]: Entering directory '/home/lukasz/Desktop/biodynamo/build/gtest/src/gtest-build'
+Scanning dependencies of target gtest_main
+make[5]: Leaving directory '/home/lukasz/Desktop/biodynamo/build/gtest/src/gtest-build'
+make[5]: Entering directory '/home/lukasz/Desktop/biodynamo/build/gtest/src/gtest-build'
+[ 75%] Building CXX object CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[100%] Linking CXX static library libgtest_main.a
+make[5]: Leaving directory '/home/lukasz/Desktop/biodynamo/build/gtest/src/gtest-build'
+[100%] Built target gtest_main
+make[4]: Leaving directory '/home/lukasz/Desktop/biodynamo/build/gtest/src/gtest-build'
+make[3]: Leaving directory '/home/lukasz/Desktop/biodynamo/build/gtest/src/gtest-build'
+[  4%] No install step for 'gtest'
+[  4%] Completed 'gtest'
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[  4%] Built target gtest
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_neurite_retraction_test-objectlib
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[  6%] Building CXX object CMakeFiles/runBiodynamoTests_neurite_retraction_test-objectlib.dir/test/unit/separate_binary/neurite_retraction_test.cc.o
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[  6%] Built target runBiodynamoTests_neurite_retraction_test-objectlib
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_resource_manager_test-objectlib
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[  7%] Building CXX object CMakeFiles/runBiodynamoTests_resource_manager_test-objectlib.dir/test/unit/separate_binary/resource_manager_test.cc.o
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[  7%] Built target runBiodynamoTests_resource_manager_test-objectlib
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_resource_manager_test-custom-streamer-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[  8%] Build dictionary runBiodynamoTests_resource_manager_test-custom-streamer-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[  8%] Built target runBiodynamoTests_resource_manager_test-custom-streamer-dict
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_resource_manager_test-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[  8%] Build dictionary runBiodynamoTests_resource_manager_test-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[  8%] Built target runBiodynamoTests_resource_manager_test-dict
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target biodynamo-objectlib
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[  9%] Building CXX object CMakeFiles/biodynamo-objectlib.dir/src/neuroscience/param.cc.o
+[  9%] Building CXX object CMakeFiles/biodynamo-objectlib.dir/src/neuroscience/event/event.cc.o
+[ 10%] Building CXX object CMakeFiles/biodynamo-objectlib.dir/src/core/param/param.cc.o
+[ 10%] Building CXX object CMakeFiles/biodynamo-objectlib.dir/src/core/param/command_line_options.cc.o
+[ 12%] Building CXX object CMakeFiles/biodynamo-objectlib.dir/src/core/simulation_backup.cc.o
+[ 12%] Building CXX object CMakeFiles/biodynamo-objectlib.dir/src/core/util/random.cc.o
+[ 13%] Building CXX object CMakeFiles/biodynamo-objectlib.dir/src/core/util/io.cc.o
+[ 13%] Building CXX object CMakeFiles/biodynamo-objectlib.dir/src/core/event/event.cc.o
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 13%] Built target biodynamo-objectlib
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target biodynamo-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 13%] Build dictionary biodynamo-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 13%] Built target biodynamo-dict
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target update-version-info
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 13%] Built target update-version-info
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target biodynamo
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 13%] Building CXX object CMakeFiles/biodynamo.dir/libbiodynamo_dict.cc.o
+[ 14%] Linking CXX shared library libbiodynamo.so
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 14%] Built target biodynamo
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_resource_manager_test
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 14%] Building CXX object CMakeFiles/runBiodynamoTests_resource_manager_test.dir/runBiodynamoTests_resource_manager_test_dict.cc.o
+[ 15%] Building CXX object CMakeFiles/runBiodynamoTests_resource_manager_test.dir/runBiodynamoTests_resource_manager_test_custom_streamers_dict.cc.o
+[ 15%] Linking CXX executable runBiodynamoTests_resource_manager_test
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 15%] Built target runBiodynamoTests_resource_manager_test
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_dividing_cell_op_aos_test-objectlib
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 15%] Building CXX object CMakeFiles/runBiodynamoTests_dividing_cell_op_aos_test-objectlib.dir/test/unit/separate_binary/dividing_cell_op_aos_test.cc.o
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 15%] Built target runBiodynamoTests_dividing_cell_op_aos_test-objectlib
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_sim_object_aos_test-objectlib
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 15%] Building CXX object CMakeFiles/runBiodynamoTests_sim_object_aos_test-objectlib.dir/test/unit/separate_binary/sim_object_aos_test.cc.o
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 15%] Built target runBiodynamoTests_sim_object_aos_test-objectlib
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_sim_object_aos_test-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 16%] Build dictionary runBiodynamoTests_sim_object_aos_test-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 16%] Built target runBiodynamoTests_sim_object_aos_test-dict
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_sim_object_aos_test-custom-streamer-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 18%] Build dictionary runBiodynamoTests_sim_object_aos_test-custom-streamer-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 18%] Built target runBiodynamoTests_sim_object_aos_test-custom-streamer-dict
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_sim_object_aos_test
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 18%] Building CXX object CMakeFiles/runBiodynamoTests_sim_object_aos_test.dir/runBiodynamoTests_sim_object_aos_test_dict.cc.o
+[ 19%] Building CXX object CMakeFiles/runBiodynamoTests_sim_object_aos_test.dir/runBiodynamoTests_sim_object_aos_test_custom_streamers_dict.cc.o
+[ 19%] Linking CXX executable runBiodynamoTests_sim_object_aos_test
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 19%] Built target runBiodynamoTests_sim_object_aos_test
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_resource_manager_aos_test-objectlib
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 20%] Building CXX object CMakeFiles/runBiodynamoTests_resource_manager_aos_test-objectlib.dir/test/unit/separate_binary/resource_manager_aos_test.cc.o
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 20%] Built target runBiodynamoTests_resource_manager_aos_test-objectlib
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_cell_test-objectlib
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 21%] Building CXX object CMakeFiles/runBiodynamoTests_cell_test-objectlib.dir/test/unit/separate_binary/cell_test.cc.o
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 21%] Built target runBiodynamoTests_cell_test-objectlib
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_mechanical_interaction_test-objectlib
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 22%] Building CXX object CMakeFiles/runBiodynamoTests_mechanical_interaction_test-objectlib.dir/test/unit/separate_binary/mechanical_interaction_test.cc.o
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 22%] Built target runBiodynamoTests_mechanical_interaction_test-objectlib
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_mechanical_interaction_test-custom-streamer-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 24%] Build dictionary runBiodynamoTests_mechanical_interaction_test-custom-streamer-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 24%] Built target runBiodynamoTests_mechanical_interaction_test-custom-streamer-dict
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_mechanical_interaction_test-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 24%] Build dictionary runBiodynamoTests_mechanical_interaction_test-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 24%] Built target runBiodynamoTests_mechanical_interaction_test-dict
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_mechanical_interaction_test
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 25%] Building CXX object CMakeFiles/runBiodynamoTests_mechanical_interaction_test.dir/runBiodynamoTests_mechanical_interaction_test_dict.cc.o
+[ 26%] Building CXX object CMakeFiles/runBiodynamoTests_mechanical_interaction_test.dir/runBiodynamoTests_mechanical_interaction_test_custom_streamers_dict.cc.o
+[ 26%] Linking CXX executable runBiodynamoTests_mechanical_interaction_test
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 26%] Built target runBiodynamoTests_mechanical_interaction_test
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_catalyst_adaptor_test-objectlib
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 26%] Building CXX object CMakeFiles/runBiodynamoTests_catalyst_adaptor_test-objectlib.dir/test/unit/separate_binary/catalyst_adaptor_test.cc.o
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 26%] Built target runBiodynamoTests_catalyst_adaptor_test-objectlib
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_cell_test-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 26%] Build dictionary runBiodynamoTests_cell_test-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 26%] Built target runBiodynamoTests_cell_test-dict
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_cell_test-custom-streamer-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 27%] Build dictionary runBiodynamoTests_cell_test-custom-streamer-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 27%] Built target runBiodynamoTests_cell_test-custom-streamer-dict
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_cell_test
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 28%] Building CXX object CMakeFiles/runBiodynamoTests_cell_test.dir/runBiodynamoTests_cell_test_dict.cc.o
+[ 30%] Building CXX object CMakeFiles/runBiodynamoTests_cell_test.dir/runBiodynamoTests_cell_test_custom_streamers_dict.cc.o
+[ 30%] Linking CXX executable runBiodynamoTests_cell_test
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 30%] Built target runBiodynamoTests_cell_test
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_so_pointer_aos_test-objectlib
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 30%] Building CXX object CMakeFiles/runBiodynamoTests_so_pointer_aos_test-objectlib.dir/test/unit/separate_binary/so_pointer_aos_test.cc.o
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 30%] Built target runBiodynamoTests_so_pointer_aos_test-objectlib
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_sim_object_util_test-objectlib
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 31%] Building CXX object CMakeFiles/runBiodynamoTests_sim_object_util_test-objectlib.dir/test/unit/separate_binary/sim_object_util_test.cc.o
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 31%] Built target runBiodynamoTests_sim_object_util_test-objectlib
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_sim_object_util_test-custom-streamer-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 32%] Build dictionary runBiodynamoTests_sim_object_util_test-custom-streamer-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 32%] Built target runBiodynamoTests_sim_object_util_test-custom-streamer-dict
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_sim_object_util_test-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 32%] Build dictionary runBiodynamoTests_sim_object_util_test-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 32%] Built target runBiodynamoTests_sim_object_util_test-dict
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_sim_object_util_test
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 32%] Building CXX object CMakeFiles/runBiodynamoTests_sim_object_util_test.dir/runBiodynamoTests_sim_object_util_test_dict.cc.o
+[ 33%] Building CXX object CMakeFiles/runBiodynamoTests_sim_object_util_test.dir/runBiodynamoTests_sim_object_util_test_custom_streamers_dict.cc.o
+[ 33%] Linking CXX executable runBiodynamoTests_sim_object_util_test
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 33%] Built target runBiodynamoTests_sim_object_util_test
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_resource_manager_aos_test-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 34%] Build dictionary runBiodynamoTests_resource_manager_aos_test-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 34%] Built target runBiodynamoTests_resource_manager_aos_test-dict
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_resource_manager_aos_test-custom-streamer-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 34%] Build dictionary runBiodynamoTests_resource_manager_aos_test-custom-streamer-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 34%] Built target runBiodynamoTests_resource_manager_aos_test-custom-streamer-dict
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_resource_manager_aos_test
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 36%] Building CXX object CMakeFiles/runBiodynamoTests_resource_manager_aos_test.dir/runBiodynamoTests_resource_manager_aos_test_dict.cc.o
+[ 36%] Building CXX object CMakeFiles/runBiodynamoTests_resource_manager_aos_test.dir/runBiodynamoTests_resource_manager_aos_test_custom_streamers_dict.cc.o
+[ 37%] Linking CXX executable runBiodynamoTests_resource_manager_aos_test
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 37%] Built target runBiodynamoTests_resource_manager_aos_test
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_so_pointer_aos_test-custom-streamer-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 37%] Build dictionary runBiodynamoTests_so_pointer_aos_test-custom-streamer-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 37%] Built target runBiodynamoTests_so_pointer_aos_test-custom-streamer-dict
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_so_pointer_aos_test-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 38%] Build dictionary runBiodynamoTests_so_pointer_aos_test-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 38%] Built target runBiodynamoTests_so_pointer_aos_test-dict
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_so_pointer_aos_test
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 39%] Building CXX object CMakeFiles/runBiodynamoTests_so_pointer_aos_test.dir/runBiodynamoTests_so_pointer_aos_test_dict.cc.o
+[ 39%] Building CXX object CMakeFiles/runBiodynamoTests_so_pointer_aos_test.dir/runBiodynamoTests_so_pointer_aos_test_custom_streamers_dict.cc.o
+[ 40%] Linking CXX executable runBiodynamoTests_so_pointer_aos_test
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 40%] Built target runBiodynamoTests_so_pointer_aos_test
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_sim_object_test-objectlib
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 40%] Building CXX object CMakeFiles/runBiodynamoTests_sim_object_test-objectlib.dir/test/unit/separate_binary/sim_object_test.cc.o
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 40%] Built target runBiodynamoTests_sim_object_test-objectlib
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_sim_object_test-custom-streamer-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 40%] Build dictionary runBiodynamoTests_sim_object_test-custom-streamer-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 40%] Built target runBiodynamoTests_sim_object_test-custom-streamer-dict
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_sim_object_test-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 42%] Build dictionary runBiodynamoTests_sim_object_test-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 42%] Built target runBiodynamoTests_sim_object_test-dict
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_sim_object_test
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 43%] Building CXX object CMakeFiles/runBiodynamoTests_sim_object_test.dir/runBiodynamoTests_sim_object_test_dict.cc.o
+[ 43%] Building CXX object CMakeFiles/runBiodynamoTests_sim_object_test.dir/runBiodynamoTests_sim_object_test_custom_streamers_dict.cc.o
+[ 44%] Linking CXX executable runBiodynamoTests_sim_object_test
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 44%] Built target runBiodynamoTests_sim_object_test
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTestsMain-objectlib
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 44%] Building CXX object CMakeFiles/runBiodynamoTestsMain-objectlib.dir/test/unit/main.cc.o
+[ 45%] Building CXX object CMakeFiles/runBiodynamoTestsMain-objectlib.dir/test/unit/test_util/test_util_test.cc.o
+[ 45%] Building CXX object CMakeFiles/runBiodynamoTestsMain-objectlib.dir/test/unit/core/diffusion_test.cc.o
+[ 46%] Building CXX object CMakeFiles/runBiodynamoTestsMain-objectlib.dir/test/unit/core/simulation_backup_test.cc.o
+[ 46%] Building CXX object CMakeFiles/runBiodynamoTestsMain-objectlib.dir/test/unit/core/grid_test.cc.o
+[ 48%] Building CXX object CMakeFiles/runBiodynamoTestsMain-objectlib.dir/test/unit/core/scheduler_test.cc.o
+[ 48%] Building CXX object CMakeFiles/runBiodynamoTestsMain-objectlib.dir/test/unit/core/diffusion_init_test.cc.o
+[ 49%] Building CXX object CMakeFiles/runBiodynamoTestsMain-objectlib.dir/test/unit/core/simulation_test.cc.o
+[ 49%] Building CXX object CMakeFiles/runBiodynamoTestsMain-objectlib.dir/test/unit/core/model_initializer_test.cc.o
+[ 50%] Building CXX object CMakeFiles/runBiodynamoTestsMain-objectlib.dir/test/unit/core/exporter_test.cc.o
+[ 50%] Building CXX object CMakeFiles/runBiodynamoTestsMain-objectlib.dir/test/unit/core/biology_module/biology_module_test.cc.o
+[ 51%] Building CXX object CMakeFiles/runBiodynamoTestsMain-objectlib.dir/test/unit/core/biology_module/regulate_genes_test.cc.o
+[ 53%] Building CXX object CMakeFiles/runBiodynamoTestsMain-objectlib.dir/test/unit/core/biology_module/grow_divide_test.cc.o
+[ 53%] Building CXX object CMakeFiles/runBiodynamoTestsMain-objectlib.dir/test/unit/core/container/inline_vector_test.cc.o
+[ 54%] Building CXX object CMakeFiles/runBiodynamoTestsMain-objectlib.dir/test/unit/core/container/variant_test.cc.o
+[ 54%] Building CXX object CMakeFiles/runBiodynamoTestsMain-objectlib.dir/test/unit/core/container/parallel_resize_vector_test.cc.o
+[ 55%] Building CXX object CMakeFiles/runBiodynamoTestsMain-objectlib.dir/test/unit/core/container/fixed_size_vector_test.cc.o
+[ 55%] Building CXX object CMakeFiles/runBiodynamoTestsMain-objectlib.dir/test/unit/core/execution_context/in_place_exec_ctxt_test.cc.o
+[ 56%] Building CXX object CMakeFiles/runBiodynamoTestsMain-objectlib.dir/test/unit/core/operation/dividing_cell_op_test.cc.o
+[ 56%] Building CXX object CMakeFiles/runBiodynamoTestsMain-objectlib.dir/test/unit/core/operation/displacement_op_test.cc.o
+[ 57%] Building CXX object CMakeFiles/runBiodynamoTestsMain-objectlib.dir/test/unit/core/operation/displacement_op_gpu_test.cc.o
+[ 57%] Building CXX object CMakeFiles/runBiodynamoTestsMain-objectlib.dir/test/unit/core/util/type_test.cc.o
+[ 59%] Building CXX object CMakeFiles/runBiodynamoTestsMain-objectlib.dir/test/unit/core/util/random_test.cc.o
+[ 60%] Building CXX object CMakeFiles/runBiodynamoTestsMain-objectlib.dir/test/unit/core/util/string_test.cc.o
+[ 60%] Building CXX object CMakeFiles/runBiodynamoTestsMain-objectlib.dir/test/unit/core/util/math_test.cc.o
+[ 61%] Building CXX object CMakeFiles/runBiodynamoTestsMain-objectlib.dir/test/unit/core/util/thread_info_test.cc.o
+[ 61%] Building CXX object CMakeFiles/runBiodynamoTestsMain-objectlib.dir/test/unit/core/util/io_test.cc.o
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 61%] Built target runBiodynamoTestsMain-objectlib
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTestsMain-custom-streamer-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 62%] Build dictionary runBiodynamoTestsMain-custom-streamer-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 62%] Built target runBiodynamoTestsMain-custom-streamer-dict
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTestsMain-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 63%] Build dictionary runBiodynamoTestsMain-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 63%] Built target runBiodynamoTestsMain-dict
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTestsMain
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 63%] Building CXX object CMakeFiles/runBiodynamoTestsMain.dir/runBiodynamoTestsMain_dict.cc.o
+[ 65%] Building CXX object CMakeFiles/runBiodynamoTestsMain.dir/runBiodynamoTestsMain_custom_streamers_dict.cc.o
+[ 65%] Linking CXX executable runBiodynamoTestsMain
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 65%] Built target runBiodynamoTestsMain
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_sim_object_vector_test-objectlib
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 65%] Building CXX object CMakeFiles/runBiodynamoTests_sim_object_vector_test-objectlib.dir/test/unit/separate_binary/sim_object_vector_test.cc.o
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 65%] Built target runBiodynamoTests_sim_object_vector_test-objectlib
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_sim_object_vector_test-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 66%] Build dictionary runBiodynamoTests_sim_object_vector_test-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 66%] Built target runBiodynamoTests_sim_object_vector_test-dict
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_sim_object_vector_test-custom-streamer-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 67%] Build dictionary runBiodynamoTests_sim_object_vector_test-custom-streamer-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 67%] Built target runBiodynamoTests_sim_object_vector_test-custom-streamer-dict
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_sim_object_vector_test
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 67%] Building CXX object CMakeFiles/runBiodynamoTests_sim_object_vector_test.dir/runBiodynamoTests_sim_object_vector_test_dict.cc.o
+[ 68%] Building CXX object CMakeFiles/runBiodynamoTests_sim_object_vector_test.dir/runBiodynamoTests_sim_object_vector_test_custom_streamers_dict.cc.o
+[ 68%] Linking CXX executable runBiodynamoTests_sim_object_vector_test
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 68%] Built target runBiodynamoTests_sim_object_vector_test
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_so_pointer_test-objectlib
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 69%] Building CXX object CMakeFiles/runBiodynamoTests_so_pointer_test-objectlib.dir/test/unit/separate_binary/so_pointer_test.cc.o
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 69%] Built target runBiodynamoTests_so_pointer_test-objectlib
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target paraview-plugin
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 71%] Build bdm paraview plugin
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/gcc-5
+-- Check for working C compiler: /usr/bin/gcc-5 -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/g++-5
+-- Check for working CXX compiler: /usr/bin/g++-5 -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Successfully loaded VTK-m component Base
+-- Successfully loaded VTK-m component Base
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lukasz/Desktop/biodynamo/build/paraview-plugin
+make[3]: Entering directory '/home/lukasz/Desktop/biodynamo/build/paraview-plugin'
+make[4]: Entering directory '/home/lukasz/Desktop/biodynamo/build/paraview-plugin'
+make[5]: Entering directory '/home/lukasz/Desktop/biodynamo/build/paraview-plugin'
+Scanning dependencies of target BDMGlyphFilterHierarchy
+make[5]: Leaving directory '/home/lukasz/Desktop/biodynamo/build/paraview-plugin'
+make[5]: Entering directory '/home/lukasz/Desktop/biodynamo/build/paraview-plugin'
+[  7%] For BDMGlyphFilter - updating BDMGlyphFilterHierarchy.txt
+make[5]: Leaving directory '/home/lukasz/Desktop/biodynamo/build/paraview-plugin'
+[  7%] Built target BDMGlyphFilterHierarchy
+make[5]: Entering directory '/home/lukasz/Desktop/biodynamo/build/paraview-plugin'
+[ 14%] Generating Documentation HTMLs from xmls
+Processing wiki sources
+Processing wiki filters
+Processing wiki writers
+Processing wiki readers
+[ 21%] Compiling Qt help project BDMGlyphFilter.qhp
+Building up file structure...
+Insert custom filters...
+Insert help data for filter section (1 of 1)...
+Insert files...
+Insert contents...
+Insert indices...
+Documentation successfully generated.
+[ 28%] Generating BDMGlyphFilter_doc.h
+-- Generate module: BDMGlyphFilter
+[ 35%] CS Wrapping - generating BDMGlyphFilterClientServer.cxx
+[ 42%] CS Wrapping - generating BDMGlyphClientServer.cxx
+[ 50%] Generating vtkSMXML_BDMGlyphFilter.h
+-- Generate module: bdm_glyph_filter
+Scanning dependencies of target BDMGlyphFilter
+make[5]: Leaving directory '/home/lukasz/Desktop/biodynamo/build/paraview-plugin'
+make[5]: Entering directory '/home/lukasz/Desktop/biodynamo/build/paraview-plugin'
+[ 57%] Building CXX object CMakeFiles/BDMGlyphFilter.dir/BDMGlyphFilter.cc.o
+[ 64%] Building CXX object CMakeFiles/BDMGlyphFilter.dir/BDMGlyph.cc.o
+[ 71%] Building CXX object CMakeFiles/BDMGlyphFilter.dir/BDMGlyphFilterClientServer.cxx.o
+[ 78%] Building CXX object CMakeFiles/BDMGlyphFilter.dir/BDMGlyphClientServer.cxx.o
+[ 85%] Building CXX object CMakeFiles/BDMGlyphFilter.dir/BDMGlyphFilterInit.cxx.o
+[ 92%] Building CXX object CMakeFiles/BDMGlyphFilter.dir/BDMGlyphFilter_Plugin.cxx.o
+[100%] Linking CXX shared library libBDMGlyphFilter.so
+make[5]: Leaving directory '/home/lukasz/Desktop/biodynamo/build/paraview-plugin'
+[100%] Built target BDMGlyphFilter
+make[4]: Leaving directory '/home/lukasz/Desktop/biodynamo/build/paraview-plugin'
+make[3]: Leaving directory '/home/lukasz/Desktop/biodynamo/build/paraview-plugin'
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 71%] Built target paraview-plugin
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_default_force_test-objectlib
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 72%] Building CXX object CMakeFiles/runBiodynamoTests_default_force_test-objectlib.dir/test/unit/separate_binary/default_force_test.cc.o
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 72%] Built target runBiodynamoTests_default_force_test-objectlib
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_default_force_test-custom-streamer-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 73%] Build dictionary runBiodynamoTests_default_force_test-custom-streamer-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 73%] Built target runBiodynamoTests_default_force_test-custom-streamer-dict
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_default_force_test-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 73%] Build dictionary runBiodynamoTests_default_force_test-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 73%] Built target runBiodynamoTests_default_force_test-dict
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_default_force_test
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 73%] Building CXX object CMakeFiles/runBiodynamoTests_default_force_test.dir/runBiodynamoTests_default_force_test_dict.cc.o
+[ 74%] Building CXX object CMakeFiles/runBiodynamoTests_default_force_test.dir/runBiodynamoTests_default_force_test_custom_streamers_dict.cc.o
+[ 74%] Linking CXX executable runBiodynamoTests_default_force_test
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 74%] Built target runBiodynamoTests_default_force_test
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_catalyst_adaptor_test-custom-streamer-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 74%] Build dictionary runBiodynamoTests_catalyst_adaptor_test-custom-streamer-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 74%] Built target runBiodynamoTests_catalyst_adaptor_test-custom-streamer-dict
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_catalyst_adaptor_test-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 75%] Build dictionary runBiodynamoTests_catalyst_adaptor_test-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 75%] Built target runBiodynamoTests_catalyst_adaptor_test-dict
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_catalyst_adaptor_test
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 77%] Building CXX object CMakeFiles/runBiodynamoTests_catalyst_adaptor_test.dir/runBiodynamoTests_catalyst_adaptor_test_dict.cc.o
+[ 77%] Building CXX object CMakeFiles/runBiodynamoTests_catalyst_adaptor_test.dir/runBiodynamoTests_catalyst_adaptor_test_custom_streamers_dict.cc.o
+[ 78%] Linking CXX executable runBiodynamoTests_catalyst_adaptor_test
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 78%] Built target runBiodynamoTests_catalyst_adaptor_test
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_sim_object_util_aos_test-objectlib
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 79%] Building CXX object CMakeFiles/runBiodynamoTests_sim_object_util_aos_test-objectlib.dir/test/unit/separate_binary/sim_object_util_aos_test.cc.o
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 79%] Built target runBiodynamoTests_sim_object_util_aos_test-objectlib
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_neuron_test-objectlib
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 79%] Building CXX object CMakeFiles/runBiodynamoTests_neuron_test-objectlib.dir/test/unit/separate_binary/neuron_test.cc.o
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 79%] Built target runBiodynamoTests_neuron_test-objectlib
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_sim_object_util_aos_test-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 80%] Build dictionary runBiodynamoTests_sim_object_util_aos_test-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 80%] Built target runBiodynamoTests_sim_object_util_aos_test-dict
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_sim_object_util_aos_test-custom-streamer-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 80%] Build dictionary runBiodynamoTests_sim_object_util_aos_test-custom-streamer-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 80%] Built target runBiodynamoTests_sim_object_util_aos_test-custom-streamer-dict
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_sim_object_util_aos_test
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 81%] Building CXX object CMakeFiles/runBiodynamoTests_sim_object_util_aos_test.dir/runBiodynamoTests_sim_object_util_aos_test_dict.cc.o
+[ 81%] Building CXX object CMakeFiles/runBiodynamoTests_sim_object_util_aos_test.dir/runBiodynamoTests_sim_object_util_aos_test_custom_streamers_dict.cc.o
+[ 83%] Linking CXX executable runBiodynamoTests_sim_object_util_aos_test
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 83%] Built target runBiodynamoTests_sim_object_util_aos_test
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_so_pointer_test-custom-streamer-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 84%] Build dictionary runBiodynamoTests_so_pointer_test-custom-streamer-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 84%] Built target runBiodynamoTests_so_pointer_test-custom-streamer-dict
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_so_pointer_test-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 84%] Build dictionary runBiodynamoTests_so_pointer_test-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 84%] Built target runBiodynamoTests_so_pointer_test-dict
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_so_pointer_test
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 85%] Building CXX object CMakeFiles/runBiodynamoTests_so_pointer_test.dir/runBiodynamoTests_so_pointer_test_dict.cc.o
+[ 85%] Building CXX object CMakeFiles/runBiodynamoTests_so_pointer_test.dir/runBiodynamoTests_so_pointer_test_custom_streamers_dict.cc.o
+[ 86%] Linking CXX executable runBiodynamoTests_so_pointer_test
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 86%] Built target runBiodynamoTests_so_pointer_test
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_displacement_op_aos_test-objectlib
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 86%] Building CXX object CMakeFiles/runBiodynamoTests_displacement_op_aos_test-objectlib.dir/test/unit/separate_binary/displacement_op_aos_test.cc.o
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 86%] Built target runBiodynamoTests_displacement_op_aos_test-objectlib
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_displacement_op_aos_test-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 87%] Build dictionary runBiodynamoTests_displacement_op_aos_test-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 87%] Built target runBiodynamoTests_displacement_op_aos_test-dict
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_displacement_op_aos_test-custom-streamer-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 87%] Build dictionary runBiodynamoTests_displacement_op_aos_test-custom-streamer-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 87%] Built target runBiodynamoTests_displacement_op_aos_test-custom-streamer-dict
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_displacement_op_aos_test
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 89%] Building CXX object CMakeFiles/runBiodynamoTests_displacement_op_aos_test.dir/runBiodynamoTests_displacement_op_aos_test_dict.cc.o
+[ 89%] Building CXX object CMakeFiles/runBiodynamoTests_displacement_op_aos_test.dir/runBiodynamoTests_displacement_op_aos_test_custom_streamers_dict.cc.o
+[ 90%] Linking CXX executable runBiodynamoTests_displacement_op_aos_test
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 90%] Built target runBiodynamoTests_displacement_op_aos_test
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_neuron_test-custom-streamer-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 90%] Build dictionary runBiodynamoTests_neuron_test-custom-streamer-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 90%] Built target runBiodynamoTests_neuron_test-custom-streamer-dict
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_neuron_test-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 91%] Build dictionary runBiodynamoTests_neuron_test-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 91%] Built target runBiodynamoTests_neuron_test-dict
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_neuron_test
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 92%] Building CXX object CMakeFiles/runBiodynamoTests_neuron_test.dir/runBiodynamoTests_neuron_test_dict.cc.o
+[ 92%] Building CXX object CMakeFiles/runBiodynamoTests_neuron_test.dir/runBiodynamoTests_neuron_test_custom_streamers_dict.cc.o
+[ 93%] Linking CXX executable runBiodynamoTests_neuron_test
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 93%] Built target runBiodynamoTests_neuron_test
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_neurite_retraction_test-custom-streamer-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 95%] Build dictionary runBiodynamoTests_neurite_retraction_test-custom-streamer-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 95%] Built target runBiodynamoTests_neurite_retraction_test-custom-streamer-dict
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_neurite_retraction_test-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 95%] Build dictionary runBiodynamoTests_neurite_retraction_test-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 95%] Built target runBiodynamoTests_neurite_retraction_test-dict
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_neurite_retraction_test
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 95%] Building CXX object CMakeFiles/runBiodynamoTests_neurite_retraction_test.dir/runBiodynamoTests_neurite_retraction_test_dict.cc.o
+[ 96%] Building CXX object CMakeFiles/runBiodynamoTests_neurite_retraction_test.dir/runBiodynamoTests_neurite_retraction_test_custom_streamers_dict.cc.o
+[ 96%] Linking CXX executable runBiodynamoTests_neurite_retraction_test
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 96%] Built target runBiodynamoTests_neurite_retraction_test
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_dividing_cell_op_aos_test-custom-streamer-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 96%] Build dictionary runBiodynamoTests_dividing_cell_op_aos_test-custom-streamer-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 96%] Built target runBiodynamoTests_dividing_cell_op_aos_test-custom-streamer-dict
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_dividing_cell_op_aos_test-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 97%] Build dictionary runBiodynamoTests_dividing_cell_op_aos_test-dict
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[ 97%] Built target runBiodynamoTests_dividing_cell_op_aos_test-dict
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+Scanning dependencies of target runBiodynamoTests_dividing_cell_op_aos_test
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make[2]: Entering directory '/home/lukasz/Desktop/biodynamo/build'
+[ 98%] Building CXX object CMakeFiles/runBiodynamoTests_dividing_cell_op_aos_test.dir/runBiodynamoTests_dividing_cell_op_aos_test_dict.cc.o
+[ 98%] Building CXX object CMakeFiles/runBiodynamoTests_dividing_cell_op_aos_test.dir/runBiodynamoTests_dividing_cell_op_aos_test_custom_streamers_dict.cc.o
+[100%] Linking CXX executable runBiodynamoTests_dividing_cell_op_aos_test
+make[2]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+[100%] Built target runBiodynamoTests_dividing_cell_op_aos_test
+make[1]: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
+make: Leaving directory '/home/lukasz/Desktop/biodynamo/build'
