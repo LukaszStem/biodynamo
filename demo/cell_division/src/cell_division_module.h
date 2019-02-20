@@ -52,7 +52,7 @@ inline int Simulate(int argc, const char** argv) {
   ModelInitializer::Grid3D(cells_per_dim, 20, construct);
 
   // Run simulation for one timestep
-  simulation.GetScheduler()->Simulate(1);
+  simulation.GetScheduler()->Simulate(20);
 
   std::cout << "Simulation completed successfully!\n";
   return 0;

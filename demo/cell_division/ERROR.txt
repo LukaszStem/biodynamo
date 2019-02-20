@@ -1,0 +1,60 @@
+ld
+
+Run cell_division 
+Info: Initialize new simulation using BioDynaMo v0.1.0-146-g9332a6c
+ERROR: In /home/testuser/bdm-build-third-party/paraview/VTK/Common/Core/vtkGenericDataArray.txx, line 442
+vtkIdTypeArray (0x688afb0): Unable to allocate 1207959557 elements of size 8 bytes. 
+
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+Aborted (core dumped)
+Fatal in <CatalystAdaptor::GenerateParaviewState>: Error during generation of ParaView state
+Command
+pvpython /home/lukasz/.bdm/biodynamo/include/core/visualization/generate_pv_state.py output/cell_division/simulation_info.json
+aborting
+Simulation completed successfully!
+
+Thread 6 (Thread 0x7fdf001b5700 (LWP 17011)):
+#0  0x00007fdf28b3bb4f in ?? () from /usr/lib/x86_64-linux-gnu/libgomp.so.1
+#1  0x00007fdf28b39418 in ?? () from /usr/lib/x86_64-linux-gnu/libgomp.so.1
+#2  0x00007fdf29fc16ba in start_thread (arg=0x7fdf001b5700) at pthread_create.c:333
+#3  0x00007fdf2865141d in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:109
+
+Thread 5 (Thread 0x7fdf009b6700 (LWP 17010)):
+#0  0x00007fdf28b3bb4f in ?? () from /usr/lib/x86_64-linux-gnu/libgomp.so.1
+#1  0x00007fdf28b39418 in ?? () from /usr/lib/x86_64-linux-gnu/libgomp.so.1
+#2  0x00007fdf29fc16ba in start_thread (arg=0x7fdf009b6700) at pthread_create.c:333
+#3  0x00007fdf2865141d in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:109
+
+Thread 4 (Thread 0x7fdf011b7700 (LWP 17009)):
+#0  0x00007fdf28b3bb4f in ?? () from /usr/lib/x86_64-linux-gnu/libgomp.so.1
+#1  0x00007fdf28b39418 in ?? () from /usr/lib/x86_64-linux-gnu/libgomp.so.1
+#2  0x00007fdf29fc16ba in start_thread (arg=0x7fdf011b7700) at pthread_create.c:333
+#3  0x00007fdf2865141d in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:109
+
+Thread 3 (Thread 0x7fdf019b8700 (LWP 17008)):
+#0  0x00007fdf28b3bb4f in ?? () from /usr/lib/x86_64-linux-gnu/libgomp.so.1
+#1  0x00007fdf28b39418 in ?? () from /usr/lib/x86_64-linux-gnu/libgomp.so.1
+#2  0x00007fdf29fc16ba in start_thread (arg=0x7fdf019b8700) at pthread_create.c:333
+#3  0x00007fdf2865141d in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:109
+
+Thread 2 (Thread 0x7fdf021b9700 (LWP 17007)):
+#0  0x00007fdf28b3bb4f in ?? () from /usr/lib/x86_64-linux-gnu/libgomp.so.1
+#1  0x00007fdf28b39418 in ?? () from /usr/lib/x86_64-linux-gnu/libgomp.so.1
+#2  0x00007fdf29fc16ba in start_thread (arg=0x7fdf021b9700) at pthread_create.c:333
+#3  0x00007fdf2865141d in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:109
+
+Thread 1 (Thread 0x7fdf2c6f9b80 (LWP 16987)):
+#0  0x00007fdf286160cb in __GI___waitpid (pid=17054, stat_loc=stat_loc
+entry=0x7ffefb38d710, options=options
+entry=0) at ../sysdeps/unix/sysv/linux/waitpid.c:29
+#1  0x00007fdf2858efbb in do_system (line=<optimised out>) at ../sysdeps/posix/system.c:148
+#2  0x00007fdf2b9fc582 in TUnixSystem::StackTrace() () from /home/lukasz/.bdm/third_party/root/lib/libCore.so
+#3  0x00007fdf2b8d2dfa in DefaultErrorHandler(int, bool, char const*, char const*) () from /home/lukasz/.bdm/third_party/root/lib/libCore.so
+#4  0x00007fdf2b8d2792 in ErrorHandler () from /home/lukasz/.bdm/third_party/root/lib/libCore.so
+#5  0x00007fdf2b8d2c8f in Fatal(char const*, char const*, ...) () from /home/lukasz/.bdm/third_party/root/lib/libCore.so
+#6  0x0000000000456429 in bdm::CatalystAdaptor<bdm::Simulation<bdm::CompileTimeParam<bdm::Soa> > >::GenerateParaviewState() ()
+#7  0x0000000000456825 in bdm::CatalystAdaptor<bdm::Simulation<bdm::CompileTimeParam<bdm::Soa> > >::~CatalystAdaptor() ()
+#8  0x000000000045689a in bdm::Scheduler<bdm::Simulation<bdm::CompileTimeParam<bdm::Soa> > >::~Scheduler() ()
+#9  0x000000000046bb65 in bdm::Simulation<bdm::CompileTimeParam<bdm::Soa> >::~Simulation() ()
+#10 0x00000000004385d6 in main ()

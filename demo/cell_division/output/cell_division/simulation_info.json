@@ -1,0 +1,17 @@
+{
+  "simulation": {
+    "name":"cell_division",
+    "result_dir":"output/cell_division"
+  },
+  "sim_objects": [
+    {
+      "name":"Cell",
+      "glyph":"Glyph",
+      "shape":"Sphere",
+      "scaling_attribute":"diameter_"
+    }
+  ],
+  "extracellular_substances": [
+
+  ]
+}
